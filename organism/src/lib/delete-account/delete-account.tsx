@@ -2,6 +2,7 @@ import React from 'react';
 import Cookies from 'js-cookie';
 import { Button, ButtonProps } from '@milka/shared-ui';
 import { deleteAccount } from '../../../../apps/milka/src/app/api/account';
+import { useRouter } from 'next/navigation';
 
 export interface Instruction {
   id: number;
@@ -19,6 +20,8 @@ export function AccountLoeschen({
   deletecta,
   instruction = [], // Default to an empty array
 }: accountProps) {
+  const router = useRouter();
+
   const handleDelete = async () => {
     const confirmation = window.confirm(
       'Möchtest du wirklich deinen FC Milka Account löschen?'
@@ -37,6 +40,9 @@ export function AccountLoeschen({
         // Pass the token to deleteAccount in the payload
         await deleteAccount(token);
         alert('Dein Account wurde erfolgreich gelöscht.');
+
+        // Redirect to /account page after successful deletion
+        router.push('/account');
       } catch (error) {
         console.error('Fehler beim Löschen des Accounts:', error);
         alert(
