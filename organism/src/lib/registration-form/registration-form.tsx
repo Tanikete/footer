@@ -51,7 +51,7 @@ export function RegistrationForm({ onSubmit, titleImgMobile, titleImg, subtitle 
       dob: undefined,
       street_name: '',
       house_number: '',
-      address: '',
+      street2: '',
       zip_code: '',
       city: '',
       country: 'Deutschland',
@@ -172,10 +172,10 @@ export function RegistrationForm({ onSubmit, titleImgMobile, titleImg, subtitle 
               />
             </div>
 
-            {/* Address field */}
+            {/* street2 field */}
             <FormField
               control={control}
-              name="address"
+              name="street2"
               render={({ field }) => (
                 <FormItem>
                   <FormControl>

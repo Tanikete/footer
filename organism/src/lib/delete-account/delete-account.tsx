@@ -1,4 +1,5 @@
 import React from 'react';
+import Cookies from 'js-cookie';
 import { Button, ButtonProps } from '@milka/shared-ui';
 import { deleteAccount } from '../../../../apps/milka/src/app/api/account';
 
@@ -25,7 +26,16 @@ export function AccountLoeschen({
 
     if (confirmation) {
       try {
-        await deleteAccount();
+        // Get the token from the cookie
+        const token = Cookies.get('token'); 
+
+        if (!token) {
+          alert('Fehler: Authentifizierungstoken fehlt.');
+          return;
+        }
+
+        // Pass the token to deleteAccount in the payload
+        await deleteAccount(token);
         alert('Dein Account wurde erfolgreich gelöscht.');
       } catch (error) {
         console.error('Fehler beim Löschen des Accounts:', error);

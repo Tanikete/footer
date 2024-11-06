@@ -18,7 +18,7 @@ export const registrationSchema = z
         house_number: z.string()
             .min(1),
 
-        address: z.string().optional(),
+        street2: z.string().optional(),
 
         zip_code: z.string()
             .regex(/^[0-9]{5}$/),

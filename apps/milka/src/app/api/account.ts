@@ -64,8 +64,9 @@ export const changePassword = async (data: ChangePasswordType, token: string) =>
 // Delete account
 export const deleteAccount = async (token: string) => {
   try {
-    const response = await axios.delete(
+    const response = await axios.post(
       `${BASE_URL}/DeleteAccount`,
+      { token },
       {
         headers: {
           Authorization: `Bearer ${token}`,
@@ -79,11 +80,10 @@ export const deleteAccount = async (token: string) => {
       throw new Error('No data received from API');
     }
   } catch (error: any) {
-    console.error('Error deleting account:', error.response ? error.response.data : error.message);
+    console.error('Error fetching profile info promo:', error.response ? error.response.data : error.message);
     throw error;
   }
 };
-
 // Get profile information promo
 export const GetProfileInfoPromo = async (token: string) => {
   try {
