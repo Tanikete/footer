@@ -3,7 +3,9 @@
     "baseUrl": ".",
     "paths": {
       "@milka/shared": ["shared-ui/src/index.ts"],
-      "@milka/shared/*": ["shared-ui/src/*"]
-    }
+      "@milka/shared/*": ["shared-ui/src/*"],
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   }
 }
