@@ -62,13 +62,13 @@
     },
     {
       "name": "FC Schalke 04",
-      "image": "FC Schalke04.png",
+      "image": "FC Schalke 04.png",
       "alt": "FC Schalke 04",
       "category": "Bundesliga"
     },
     {
       "name": "FC St. Pauli",
-      "image": "Fc st pauli.png",
+      "image": "FC St. Pauli.png",
       "alt": "FC St. Pauli,",
       "category": "Bundesliga"
     },
@@ -115,9 +115,9 @@
       "category": "2. Bundesliga"
     },
     {
-      "name": "VfL Wolfsburg",
+      "name": "VfL Wolfsburg two",
       "image": "VfL Wolfsburg two.png",
-      "alt": "VfL Wolfsburg",
+      "alt": "VfL Wolfsburg two",
       "category": "2. Bundesliga"
     },
     {
@@ -158,19 +158,19 @@
     },
     {
       "name": "SC Paderborn 07",
-      "image": "SC Paderborn07.png",
+      "image": "SC Paderborn 07.png",
       "alt": "SC Paderborn 07",
       "category": "2. Bundesliga"
     },
     {
       "name": "SC Preussen Münster",
-      "image": "SC Preussen Muenster.png",
+      "image": "SC Preussen Münster.png",
       "alt": "SC Preussen Münster",
       "category": "2. Bundesliga"
     },
     {
       "name": "SpVgg Greuther Fürth",
-      "image": "SpVgg Greuther Fürth 2017.png",
+      "image": "SpVgg Greuther Fürth.png",
       "alt": "SpVgg Greuther Fürth",
       "category": "2. Bundesliga"
     },
@@ -194,13 +194,13 @@
     },
     {
       "name": "Vereinfacht",
-      "image": "VEREINFACHTES.png",
+      "image": "Vereinfacht.png",
       "alt": "Vereinfacht",
       "category": "2. Bundesliga"
     },
     {
       "name": "VfB Stuttgart",
-      "image": "VfB Stuttgart 1893.png",
+      "image": "VfB Stuttgart.png",
       "alt": "VfB Stuttgart",
       "category": "2. Bundesliga"
     },
