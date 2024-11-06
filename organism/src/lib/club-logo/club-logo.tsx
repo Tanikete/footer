@@ -13,7 +13,8 @@ export function ClubLogo() {
   const [error, setError] = useState<string | null>(null);
   const [showOverlay, setShowOverlay] = useState<boolean>(false);
   const [favClub, setFavClub] = useState<string | null>(null);
-  const [selectedClub, setSelectedClub] = useState<string | null>(null); // New state for temporary selection
+  const [selectedClub, setSelectedClub] = useState<string | null>(null);
+  const [activeTab, setActiveTab] = useState<string>('Bundesliga');
 
   const fetchLogo = async () => {
     const token = Cookies.get('token');
@@ -30,7 +31,7 @@ export function ClubLogo() {
       if (!res.ok) throw new Error("Failed to fetch logo");
 
       const data: ClubLogoProps = await res.json();
-      setFavClub(data.favclub); // Set the current favorite club
+      setFavClub(data.favclub);
       setLogo(`/images/logos/${data.favclub}.png`);
     } catch (error: any) {
       setError(error.message || "An error occurred while fetching the logo");
@@ -48,16 +49,15 @@ export function ClubLogo() {
   };
 
   const handleLogoSelect = (clubName: string) => {
-    setSelectedClub(clubName); // Set the temporary selected club
+    setSelectedClub(clubName);
   };
 
   const handleSaveSelection = async () => {
     if (selectedClub) {
-      setFavClub(selectedClub); // Commit the selected club to favClub
-      setLogo(`/images/logos/${selectedClub}.png`); // Update the logo path
-      setShowOverlay(false); // Close the overlay
+      setFavClub(selectedClub);
+      setLogo(`/images/logos/${selectedClub}.png`);
+      setShowOverlay(false);
 
-      // Submit the favClub and token as FormData to the API
       const token = Cookies.get('token');
       const formData = new FormData();
       formData.append('team1', selectedClub);
@@ -81,9 +81,10 @@ export function ClubLogo() {
     }
   };
 
-  // Separate the logos into two categories
   const bundesligaLogos = logosData.logos.filter(logo => logo.category === "Bundesliga").slice(0, 18);
   const secondBundesligaLogos = logosData.logos.filter(logo => logo.category === "2. Bundesliga").slice(0, 18);
+
+  const logosToDisplay = activeTab === 'Bundesliga' ? bundesligaLogos : secondBundesligaLogos;
 
   return (
     <div>
@@ -129,13 +130,31 @@ export function ClubLogo() {
             onClick={(e) => e.stopPropagation()}
           >
             <div className="text-center mb-4">
-              <h2 className="text-[var(--milka-light)] font-bold text-xl">
-                BUNDESLIGA
-              </h2>
-              {/* Display Bundesliga logos */}
-              <div className="grid grid-cols-5 gap-4 mb-6">
-                {bundesligaLogos.map((logo, index) => (
-                  <div key={index} className="flex justify-center items-center cursor-pointer" onClick={() => handleLogoSelect(logo.name)}>
+              <div className="flex justify-center space-x-4 mb-6">
+                <button
+                  className={`font-bold text-xl ${activeTab === 'Bundesliga' ? 'text-[var(--milka-light)]' : 'text-gray-500'}`}
+                  onClick={() => setActiveTab('Bundesliga')}
+                >
+                  BUNDESLIGA
+                </button>
+                <button
+                  className={`font-bold text-xl ${activeTab === '2. Bundesliga' ? 'text-[var(--milka-light)]' : 'text-gray-500'}`}
+                  onClick={() => setActiveTab('2. Bundesliga')}
+                >
+                  2. BUNDESLIGA
+                </button>
+              </div>
+
+              <div 
+                className={`grid gap-4 mb-6 ${
+                  activeTab === 'Bundesliga' ? 'grid-cols-2 sm:grid-cols-6' : 'grid-cols-2 sm:grid-cols-6'
+                }`}
+              >
+                {logosToDisplay.map((logo, index) => (
+                  <div key={index}
+                       onClick={() => handleLogoSelect(logo.name)}
+                       className={`flex justify-center items-center cursor-pointer rounded-lg p-1 ${selectedClub === logo.name ? 'shadow-lg ring-2 ring-[var(--milka-light)]' : ''}`}
+                  >
                     <img
                       src={`/images/logos/${logo.image}`}
                       alt={logo.alt}
@@ -145,29 +164,15 @@ export function ClubLogo() {
                 ))}
               </div>
 
-              <h2 className="text-[var(--milka-light)] font-bold text-xl">
-                2. BUNDESLIGA
-              </h2>
-              {/* Display 2. Bundesliga logos */}
-              <div className="grid grid-cols-5 gap-4 mb-6">
-                {secondBundesligaLogos.map((logo, index) => (
-                  <div key={index} className="flex justify-center items-center cursor-pointer" onClick={() => handleLogoSelect(logo.name)}>
-                    <img
-                      src={`/images/logos/${logo.image}`}
-                      alt={logo.alt}
-                      className="w-12 h-12 lg:w-16 lg:h-16"
-                    />
-                  </div>
-                ))}
+              <div className="flex justify-center">
+                <button
+                  onClick={handleSaveSelection}
+                  className="bg-green-500 text-white py-2 px-6 rounded"
+                >
+                  FERTIG
+                </button>
               </div>
             </div>
-
-            <button
-              onClick={handleSaveSelection}
-              className="bg-green-500 text-white py-2 px-6 rounded"
-            >
-              FERTIG
-            </button>
           </div>
         </div>
       )}
