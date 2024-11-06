@@ -20,13 +20,13 @@
     },
     {
       "name": "Bundesliga Variant",
-      "image": "bundesliga Variant19 one.png",
+      "image": "bundesliga Variant.png",
       "alt": "Bundesliga Variant",
       "category": "Bundesliga"
     },
     {
       "name": "Ebene x0020",
-      "image": "Ebene x0020 1.png",
+      "image": "Ebene x0020.png",
       "alt": "Ebene x0020",
       "category": "Bundesliga"
     },
@@ -212,7 +212,7 @@
     },
     {
       "name": "1.FC Köln",
-      "image": "Wappen1 FC Koeln1.png",
+      "image": "1.FC Köln.png",
       "alt": "1.FC Köln",
       "category": "2. Bundesliga"
     }
