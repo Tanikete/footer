@@ -1,0 +1,43 @@
+{
+  "account": {
+      "title": "Headline for an upcoming promotion",
+      "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "mainkonto": {
+          "url": "/my-account",
+          "children": "ERINNERE MICH"
+      },
+      "footer": "Die Gewinnvergabe erfolgt unabhängig von deiner Clubauswahl.",
+      "images": {
+          "desktop": "/images/profile-desktop.png",
+          "mobile": "/images/profile-mobile.png"
+      },
+
+      "infomation": "KONTO INFORMATIONEN",
+      "kontoinformation" : {
+          "url": "/my-account/konto-information",
+          "children": "SPEICHERN"
+      },
+      "passwordcta" : {
+          "url": "/my-account/change-password",
+          "children": "PASSWORT AKTUALISIEREN"
+      },
+      "password_title": "PASSWORT ANDERN",
+      "password_subtitle": "Blindtext, wenn wir einen Text überhaupt hier brauchen. Blindtext",
+      "delete_title": "FC MILKA ACCOUNT LÖSCHEN",
+      "deletecta": {
+          "url": "/my-account/delete-account",
+          "children": "ACCOUNT LÖSCHEN"
+      },
+      
+     "instruction": [
+          {
+            "id": 1,
+            "description": "Du kannst deinen FC Milka Account jederzeit löschen. Bitte beachte, dass du es möglicherweise nicht mehr wiederherstellen kannst, falls du deine Meinung änderst."
+          },
+          {
+            "id": 2,
+            "description": "Möchtest du wirklich deinen FC Milka Account löschen?"
+          }
+        ]
+  }
+}

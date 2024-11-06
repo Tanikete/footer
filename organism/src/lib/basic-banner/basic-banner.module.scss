@@ -1,0 +1,17 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+
+.content {
+    @media(min-width: 768px) and (orientation: portrait) {
+       padding-top: 250px;
+    }
+
+    @media(width: 1024px) {
+        padding-top: 60px;
+    }
+}

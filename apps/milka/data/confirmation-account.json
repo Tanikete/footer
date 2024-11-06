@@ -1,0 +1,18 @@
+{
+    "textImg": {
+        "url": "/images/confirmation-account/hl-last-step.png",
+        "title": "one more step"
+    },
+    "textImgMobile": {
+        "url": "/images/confirmation-account/hl-last-step-mobile.png",
+        "title": "one more step"
+    },
+    "content": [
+        "Vielen Dank für deine Anmeldung beim FC Milka. Wir haben dir soeben eine E-Mail gesendet. Bitte überprüfe deinen Posteingang und klicke auf den Bestätigungslink in der E-Mail, um deine Registrierung abzuschließen.",
+        "Schau auch in deinem Spam-Ordner nach, falls du die E-Mail nicht finden kannst."
+    ],
+    "cta": {
+        "url": "/account",
+        "children": "EINLOGGEN"
+    }
+}

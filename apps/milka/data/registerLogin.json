@@ -1,0 +1,20 @@
+{
+    "Cards": {
+      "registerCard": [
+        {
+          "title": "/images/register-login/sign-up.png",
+          "subtitle": "Registriere dich jetzt schnell und unkompliziert, um einzigartige Vorteile zu genießen: Gewinne Tickets für Top-Spiele und verpasse keine Aktion mehr. Einfach registrieren, einloggen und mitfiebern!"
+        }
+      ],
+      "loginCard": [
+        {
+          "title": "/images/register-login/login.png",
+          "subtitle": "Willkommen zurück beim FC Milka! Melde dich jetzt an und sichere dir deine Chance auf exklusive Gewinne. Dein Abenteuer beginnt hier."
+        }
+      ]
+    },
+    "emailExistsTxt": "E-Mail wurde nicht aktiviert",
+    "registerTxt": "Jetzt registrieren",
+    "loginTxt": "Einloggen",
+    "forgotPasswordTxt": "Passwort vergessen?"
+  }

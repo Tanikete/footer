@@ -1,0 +1,216 @@
+{
+  "registerClubIconsOne": [
+    {
+      "name": "FC Augsburg",
+      "imageUrl": "/images/footer/Logo_FC_Augsburg.png",
+      "alt": "FC Augsburg Logo"
+    },
+    {
+      "name": "1.FC Union Berlin",
+      "imageUrl": "/images/footer/FC_Union_Berlin_Logo.png",
+      "alt": "FC Union Berlin Logo"
+    },
+    {
+      "name": "VfL Bochum 1848",
+      "imageUrl": "/images/footer/VfL_Bochum_logo.png",
+      "alt": "VfL Bochum Logo"
+    },
+    {
+      "name": "SV Werder Bremen",
+      "imageUrl": "/images/footer/Ebene_x0020_1.png",
+      "alt": "SV Werder Bremen Logo"
+    },
+    {
+      "name": "FC.St.Pauli",
+      "imageUrl": "/images/footer/Fc_st_pauli_logo.png",
+      "alt": "FC St Pauli Logo"
+    },
+    {
+      "name": "Borussia Dortmund",
+      "imageUrl": "/images/footer/Borussia_Dortmund_logo.png",
+      "alt": "Borussia Dortmund Logo"
+    },
+    {
+      "name": "Eintracht Ffrankfurt",
+      "imageUrl": "/images/footer/Eintracht_Frankfurt_Logo.png",
+      "alt": "Eintracht Frankfurt Logo"
+    },
+    {
+      "name": "SC Freiburg",
+      "imageUrl": "/images/footer/SC_Freiburg_Logo.png",
+      "alt": "Sport Club Freiburg Logo"
+    },
+    {
+      "name": "1.FC Heidenheim 1846",
+      "imageUrl": "/images/footer/FC_Heidenheim_1846.png",
+      "alt": "1 FC Heidenheim Logo"
+    },
+    {
+      "name": "TSG Hoffenheim",
+      "imageUrl": "/images/footer/Logo_TSG_Hoffenheim.png",
+      "alt": "TSG Hoffenheim Logo"
+    },
+    {
+      "name": "Holstein Kiel",
+      "imageUrl": "/images/footer/v.png",
+      "alt": "Holstein Kiel Logo"
+    },
+    {
+      "name": "RB Leipzig",
+      "imageUrl": "/images/footer/VEREINFACHTES_LOGO.png",
+      "alt": "RB Leipzig Logo"
+    },
+    {
+      "name": "Bayer 04 Leverkusen",
+      "imageUrl": "/images/footer/Bayer_Leverkusen_Logo.png",
+      "alt": "Bayer 04 Leverkusen Logo"
+    },
+    {
+      "name": "1.FSV Mainz 05",
+      "imageUrl": "/images/footer/Logo_Mainz_05.png",
+      "alt": "FSV Mainz Logo"
+    },
+    {
+      "name": "Borussia Mönchengladbach",
+      "imageUrl": "/images/footer/Borussia_Monchengladbach_logo.png",
+      "alt": "Borussia Mönchengladbach Logo"
+    },
+    {
+      "name": "FC Bayern München",
+      "imageUrl": "/images/footer/fifteen.png",
+      "alt": "FC Bayern Munchen Logo"
+    },
+    {
+      "name": "VfB Stuttgart",
+      "imageUrl": "/images/footer/VfB_Stuttgart_1893_Logo.png",
+      "alt": "VFB Stuttgart Logo"
+    },
+    {
+      "name": "VfL Wolfsburg",
+      "imageUrl": "/images/footer/Logo-VfL-Wolfsburg.png",
+      "alt": "VFL Wolfsburg Logo"
+    }
+  ],
+  "registerClubIconsTwo": [
+    {
+      "name": "Hertha BSC",
+      "imageUrl": "/images/footer/Logo-VfL-Wolfsburg-two.png",
+      "alt": "Hertha BSC Logo"
+    },
+    {
+      "name": "Eintracht Braunschweig",
+      "imageUrl": "/images/footer/Logo_Eintracht_Braunschweig.png",
+      "alt": "Eintracht Braunschweig Logo"
+    },
+    {
+      "name": "SV Darmstadt 98",
+      "imageUrl": "/images/footer/SV_Darmstadt_98_Logo.png",
+      "alt": "SV Darmstadt Logo"
+    },
+    {
+      "name": "Fortuna Düsseldorf",
+      "imageUrl": "/images/footer/Fortuna_Dusseldorf.png",
+      "alt": "Fortuna Düsseldorf Logo"
+    },
+    {
+      "name": "SV Elversberg",
+      "imageUrl": "/images/footer/bundesliga_Variant19_one.png",
+      "alt": "SV Elversberg Logo"
+    },
+    {
+      "name": "SpVgg Greuther Fürth",
+      "imageUrl": "/images/footer/SpVgg_Greuther_Furth_2017.png",
+      "alt": "SpVgg Greuther Fürth Logo"
+    },
+    {
+      "name": "Hamburger SV",
+      "imageUrl": "/images/footer/Hamburger_SV_logo.png",
+      "alt": "Hamburger SV Logo"
+    },
+    {
+      "name": "Hannover 96",
+      "imageUrl": "/images/footer/Hannover_96_Logo.png",
+      "alt": "Hannover 96 Logo"
+    },
+    {
+      "name": "1. FC Kaiserslautern",
+      "imageUrl": "/images/footer/Logo1FC_Kaiserslautern.png",
+      "alt": "FC Kaiserlautern Logo "
+    },
+    {
+      "name": "Karlsruher SC",
+      "imageUrl": "/images/footer/Karlsruher_SC_Logo2.png",
+      "alt": "Karlsruher SC Logo"
+    },
+    {
+      "name": "1.FC Köln",
+      "imageUrl": "/images/footer/Wappen1_FC_Koeln1.png",
+      "alt": "FC Köln Logo"
+    },
+    {
+      "name": "1.FC Magdeburg",
+      "imageUrl": "/images/footer/FC_Magdeburg.png",
+      "alt": "FC Magdeburg Logo"
+    },
+    {
+      "name": "SC Preußen Münster",
+      "imageUrl": "/images/footer/SC_Preussen_Muenster_Logo.png",
+      "alt": "SC Preußen Münster Logo"
+    },
+    {
+      "name": "FC Nürnberg",
+      "imageUrl": "/images/footer/FC_Nurnberg_logo.png",
+      "alt": "FC Nürnberg Logo"
+    },
+    {
+      "name": "SC Paderborn 07",
+      "imageUrl": "/images/footer/SC_Paderborn07_Logo.png",
+      "alt": "SC Paderborn Logo"
+    },
+    {
+      "name": "SSV Jahn Regensburg",
+      "imageUrl": "/images/footer/Jahn_Regensburg_logo.png",
+      "alt": "SSV Jahn Regensburg Logo"
+    },
+    {
+      "name": "FC Schalke 04",
+      "imageUrl": "/images/footer/FC_Schalke04_Logo.png",
+      "alt": "FC Schalke 04 Logo"
+    },
+    {
+      "name": "SSV Ulm 1846",
+      "imageUrl": "/images/footer/SSV_Ulm.png",
+      "alt": "SSV Ulm 1846 Fussball Logo"
+    }
+  ],
+  "checkBoxContainers": [
+    {
+      "unCheckImage": "/images/uncheckbox.png",
+      "checkImage": "/images/checkbox.png", 
+      "text": "Ich habe die Teilnahmebedingungen gelesen und akzeptiert.\n Mehr Informationen",
+      "attribute": "Termsandconditions"
+    },
+    {
+      "unCheckImage": "/images/uncheckbox.png",
+      "checkImage": "/images/checkbox.png", 
+      "text": "Ich möchte den regelmäßigen Newsletter mit zukünftigen Neuigkeiten, Gewinnspielen und Angeboten von Milka per E-Mail erhalten. Damit die Kommunikation noch besser auf meine Bedürfnisse abgestimmt werden kann, bin ich neben der Anmeldung für den Newsletter auch damit einverstanden, dass meine Daten inklusive meiner verschlüsselten E-Mail-Adresse für Folgendes verwendet werden: Bildung von Profilen, Analyse-Zwecke, Verknüpfung und Anreicherung mit Browserdaten sowie auf mich abgestimmte Werbung. Zu diesen Zwecken dürfen meine Daten von Milka auch an weitere Tochtermarken von Mondelez International (Oreo, Philadelphia, TUC, Miracel Whip u. a.), Partner, Dienstleister oder Plattformen Dritter weitergegeben werden, welche die Daten ausschließlich für Mondelez International nach deren Weisung verarbeiten.\n\nWir schätzen dein Vertrauen, wenn du deine persönlichen Daten mit uns teilst. Wir behandeln deine Daten stets fair und respektvoll, beschränkt auf den oben genannten Zweck. Wenn du mehr darüber erfahren möchtest, wie wir mit deinen Daten umgehen, lies bitte unsere Datenschutzerklärung",
+      "attribute": "NewsLetter"
+    }
+  ],
+  "termsAndConditions": {
+    "text": "*Gib deine persönlichen Daten ein (Vor- und Nachname {{BR_LG}} sowie die E-Mail-Adresse, Geburtsdatum, Postadresse). Lies {{BR_LG}} dir {{BR_XS}} bitte vorher unsere Datenschutzerklärung aufmerksam {{BR_LG}} durch, damit du weißt, wie wir mit deinen {{BR_LG}} personenbezogenen {{BR_XS}} Daten umgehen und welche Rechte dir {{BR_LG}} zustehen.",
+    "url": "https://privacy.mondelezinternational.com/eu/de-DE/privacy-notice/",
+    "warningText": "Bitte akzeptiere die Teilnahmebedingungen, um fortzufahren."
+  },
+  "titleImg": {
+    "url": "/images/registration-club/registrationClubStart.png",
+    "alt": "Wähle deinen Liebling Club"
+  },
+  "titleImgMobile": {
+    "url": "/images/registration-club/registrationClubStart-mobile.png",
+    "alt": "Wähle deinen Liebling Club"
+  },
+  "subtitle": "Zeit, Farbe zu bekennen! Wähle deinen Lieblingsverein aus der 1. und 2. Bundesliga und sichere dir exklusive Milka-Momente. Lass uns wissen, für wen dein Herz auf dem Spielfeld schlägt!",
+  "registerFormButtonText": "MEIN KONTO ERSTELLEN",
+  "emailInUseTxt": "E-Mail wird bereits verwendet. <br/> Versuche es mit einer anderen E-Mail oder logge dich ein."
+}

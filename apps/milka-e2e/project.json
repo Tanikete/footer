@@ -1,0 +1,9 @@
+{
+  "name": "milka-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/milka-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["milka"],
+  "// targets": "to see all targets run: nx show project milka-e2e --web",
+  "targets": {}
+}

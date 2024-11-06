@@ -1,0 +1,39 @@
+{
+    "logo": {
+        "url": "/images/fc-milka-logo.png",
+        "alt": "FC milka logo",
+        "logoLink": "/"
+    },
+    "gif": {
+        "url": "/images/header/partner-animation.gif",
+        "alt": "Partners gif",
+        "link": "https://www.bundesliga.com/de/bundesliga"
+    },
+    "menuItems": [
+        {
+          "itemImg": "/images/header/mitmachen.png",
+          "itemText": "MITMACHEN",
+          "itemLink": "https://reihe1.fcmilka.de/"
+        },
+        {
+          "itemImg": "../images/header/partner.png",
+          "itemText": "PARTNER",
+          "itemLink": "/partners"
+        },
+        {
+          "itemImg": "../images/header/fairplay.png",
+          "itemText": "FAIRPLAY MOMENTS",
+          "itemLink": "/fairplay"
+        },
+        {
+          "itemImg": "../images/header/fcmilka.png",
+          "itemText": "FC MILKA ERLEBNISSE",
+          "itemLink": "/experiences"
+        },
+        {
+          "itemImg": "../images/header/spielregeln.png",
+          "itemText": "SPIELREGELN",
+          "itemLink": "/faq"
+        }
+      ]
+}

@@ -1,0 +1,255 @@
+{
+    "footerIcons": [
+        {
+            "imageUrl": "/images/footer/Logo_FC_Augsburg.png",
+            "alt": "FC Augsburg Logo"
+        },
+        {
+            "imageUrl": "/images/footer/FC Union Berlin.png",
+            "alt": "FC Union Berlin Logo"
+        },
+        {
+            "imageUrl": "/images/footer/VfL Bochum.png",
+            "alt": "VfL Bochum Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Ebene x0020 1.png",
+            "alt": "SV Werder Bremen Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Borussia Dortmund.png",
+            "alt": "Borussia Dortmund Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Eintracht Frankfurt.png",
+            "alt": "Eintracht Frankfurt Logo"
+        },
+        {
+            "imageUrl": "/images/footer/SC Freiburg.png",
+            "alt": "Sport Club Freiburg Logo"
+        },
+        {
+            "imageUrl": "/images/footer/FC Heidenheim 1846.png",
+            "alt": "1 FC Heidenheim Logo"
+        },
+        {
+            "imageUrl": "/images/footer/TSG Hoffenheim.png",
+            "alt": "TSG Hoffenheim Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Holstein Kiel Logo.png",
+            "alt": "Holstein Kiel Logo"
+        },
+        {
+            "imageUrl": "/images/footer/VEREINFACHTES_LOGO.png",
+            "alt": "RB Leipzig Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Bayer 04 Leverkusen.png",
+            "alt": "Bayer 04 Leverkusen Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Logo_Mainz_05.png",
+            "alt": "FSV Mainz Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Borussia_Mönchengladbach_logo.png",
+            "alt": "Borussia Mönchengladbach Logo"
+        },
+        {
+            "imageUrl": "/images/footer/fifteen.png",
+            "alt": "FC Bayern München Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Fc_st_pauli_logo.png",
+            "alt": "FC St Pauli Logo"
+        },
+        {
+            "imageUrl": "/images/footer/VfB_Stuttgart_1893_Logo.png",
+            "alt": "VFB Stuttgart Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Logo-VfL-Wolfsburg.png",
+            "alt": "VFL Wolfsburg Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Logo-VfL-Wolfsburg-two.png",
+            "alt": "Hertha BSC Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Logo_Eintracht_Braunschweig.png",
+            "alt": "Eintracht Braunschweig Logo"
+        },
+        {
+            "imageUrl": "/images/footer/SV_Darmstadt_98_Logo.png",
+            "alt": "SV Darmstadt Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Fortuna_Düsseldorf.png",
+            "alt": "Fortuna Düsseldorf Logo"
+        },
+        {
+            "imageUrl": "/images/footer/bundesliga_Variant19_one.png",
+            "alt": "SV Elversberg Logo"
+        },
+        {
+            "imageUrl": "/images/footer/SpVgg_Greuther_Fürth_2017.png",
+            "alt": "SpVgg Greuther Fürth Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Hamburger_SV_logo.png",
+            "alt": "Hamburger SV Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Hannover_96_Logo.png",
+            "alt": "Hannover 96 Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Logo1FC_Kaiserslautern.png",
+            "alt": "FC Kaiserlautern Logo "
+        },
+        {
+            "imageUrl": "/images/footer/Karlsruher_SC_Logo2.png",
+            "alt": "Karlsruher SC Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Wappen1_FC_Koeln1.png",
+            "alt": "FC Köln Logo"
+        },
+        {
+            "imageUrl": "/images/footer/FC_Magdeburg.png",
+            "alt": "FC Magdeburg Logo"
+        },
+        {
+            "imageUrl": "/images/footer/SC_Preussen_Muenster_Logo.png",
+            "alt": "SC Preußen Münster Logo"
+        },
+        {
+            "imageUrl": "/images/footer/FC_Nürnberg_logo.png",
+            "alt": "FC Nürnberg Logo"
+        },
+        {
+            "imageUrl": "/images/footer/SC_Paderborn07_Logo.png",
+            "alt": "SC Paderborn Logo"
+        },
+        {
+            "imageUrl": "/images/footer/Jahn_Regensburg_logo.png",
+            "alt": "SSV Jahn Regensburg Logo"
+        },
+        {
+            "imageUrl": "/images/footer/FC_Schalke04_Logo.png",
+            "alt": "FC Schalke 04 Logo"
+        },
+        {
+            "imageUrl": "/images/footer/SSV_Ulm.png",
+            "alt": "SSV Ulm 1846 Fussball Logo"
+        }
+    ],
+    "footerLinks": [
+        {
+            "footerTitle": "offizieller Partner der DFL"
+        },
+        {
+            "socialIcons": [
+                {
+                    "imageUrl": "/images/footer/Fb.png",
+                    "url": "https://www.facebook.com/Milka/?brand_redir=122033402999",
+                    "alt": "Facebook Logo"
+                },
+                {
+                    "imageUrl": "/images/footer/Insta.png",
+                    "url": "https://www.instagram.com/milka_deutschland/",
+                    "alt": "Instagram Logo"
+                },
+                {
+                    "imageUrl": "/images/footer/music.png",
+                    "url": "https://www.tiktok.com/@milka_de_at",
+                    "alt": "Tiktok Logo"
+                },
+                {
+                    "imageUrl": "/images/footer/pin.png",
+                    "url": "https://www.pinterest.de/milka_dach/",
+                    "alt": "Pinterest Logo"
+                },
+                {
+                    "imageUrl": "/images/footer/youtube.png",
+                    "url": "https://www.youtube.com/user/Milka",
+                    "alt": "Youtube Logo"
+                }
+            ]
+        },
+        {
+            "quickLinks": [
+                {
+                    "url": "https://www.milka.de/uber-milka",
+                    "urlText": "Über Milka"
+                },
+                {
+                    "url": "https://www.milka.de/alle-produkte",
+                    "urlText": "Produkte"
+                },
+                {
+                    "url": "/",
+                    "urlText": "Mitglied werden"
+                },
+                {
+                    "url": "/",
+                    "urlText": "FAQ"
+                },
+                {
+                    "url": "https://www.milka.de/newsletter",
+                    "urlText": "Newsletter"
+                },
+                {
+                    "url": "/",
+                    "urlText": "Fan-Center"
+                }
+            ]
+        },
+        {
+            "termsLinks": [
+                {
+                    "url": " https://fcmilka.de/teilnahmebedingungen",
+                    "urlText": "Teilnahme bedingungen"
+                },
+                {
+                    "url": "https://www.milka.de/Static/bedingungen-zur-nutzung",
+                    "urlText": "Bedingungen zur Nutzung"
+                },
+                {
+                    "url": "https://eu.mondelezinternational.com/privacy-notice?sc_lang=de-de&siteID=7GTws0jSEtgtqGQHH57lZw%3D%3D",
+                    "urlText": "Datenschutzerklärung"
+                },
+                {
+                    "url": "https://www.milka.de/Static/impressum",
+                    "urlText": "Impressum"
+                },
+                {
+                    "url": "https://www.milka.de/Static/nutzungsbasierte-online-werbung",
+                    "urlText": "Nutzungsbasierte Online-Werbung"
+                }
+            ]
+        },
+        {
+            "contactLinks": [
+                {
+                    "url": "https://www.milka.de/Static/mondelez-international",
+                    "urlText": "Mondelez International"
+                },
+                {
+                    "url": "https://milka-bundesliga-content-qa.azurewebsites.net/cookie",
+                    "urlText": "Cookie Richtlinie"
+                },
+                {
+                    "url": "https://contactus.mdlzapps.com/form?siteId=7GTws0jSEtgtqGQHH57lZw%3D%3D",
+                    "urlText": "Kontakt"
+                }
+            ]
+        }
+    ],
+    "brandLogo": {
+        "image": "/images/footer/brandLogo2.png",
+        "alt": "brandlogo",
+        "url": "/"
+    }
+}

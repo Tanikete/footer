@@ -1,0 +1,11 @@
+{
+    "subtitle": "Mit deiner Registrierung kannst du an Gewinnspielen teilnehmen und exklusive Inhalte genießen. Bitte gib deine vollständigen Kontaktdaten an, damit wir dich bei einem Gewinn informieren können.",
+    "titleImg": {
+      "url": "/images/registration-form/registration-start.png",
+      "alt": "Jetzt deinen FC Milka Account Anlegen"
+    },
+    "titleImgMobile": {
+      "url": "/images/registration-form/registration-start-mobile.png",
+      "alt": "Jetzt deinen FC Milka Account Anlegenst"
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "teaserBanner": {
+        "backgroundImg": {
+            "url": "/images/homepage/teaser.png",
+            "title": "bayern teaser"
+        },
+        "backgroundImgMobile": {
+            "url": "/images/homepage/teaser-mobile.png",
+            "title": "bayern teaser"
+        },
+        "titleImg": {
+            "url": "/images/homepage/teaser-text.png",
+            "title": "Reihe 1 ist deins"
+        },
+        "titleImgMobile": {
+            "url": "/images/homepage/teaser-text-mobile.png",
+            "title": "Reihe 1 ist deins"
+        },
+        "subtitle": "Die größte Liga der Welt und zwei Clublegenden des Weltfußballs – mit  unseren Partnern, der DFL, dem FC Bayern München und Borussia Dortmund können wir Euch eins versprechen: Mehr Leidenschaft,  Begeisterung und Faszination geht nicht!",
+        "cta": {
+            "url": "https://reihe1.fcmilka.de/",
+            "children": "MEHR ERFAHREN"
+        }
+    },
+    "partnerBanner": {
+        "backgroundImg": {
+            "url": "/images/homepage/partner-teaser.png",
+            "title": "partner teaser"
+        },
+        "backgroundImgMobile": {
+            "url": "/images/homepage/partner-teaser-mobile.png",
+            "title": "partner teaser"
+        },
+        "titleImg": {
+            "url": "/images/homepage/partner-teaser-text.png",
+            "title": "Stolzer partner"
+        },
+        "titleImgMobile": {
+            "url": "/images/homepage/partner-teaser-text-mobile.png",
+            "title": "Stolzer partner"
+        },
+        "subtitle": "Die größte Liga der Welt und zwei Clublegenden des Weltfußballs – mit  unseren Partnern, der DFL, dem FC Bayern München und Borussia Dortmund können wir Euch eins versprechen: Mehr Leidenschaft,  Begeisterung und Faszination geht nicht!",
+        "cta": {
+            "url": "/partners",
+            "children": "MEHR ERFAHREN"
+        }
+    },
+    "registrationBanner": {
+        "backgroundImg": {
+            "url": "/images/homepage/registration-teaser.png",
+            "title": "registration teaser"
+        },
+        "backgroundImgMobile": {
+            "url": "/images/homepage/registration-teaser-mobile.png",
+            "title": "registration teaser"
+        },
+        "titleImg": {
+            "url": "/images/homepage/registration-teaser-text.png",
+            "title": "Komm in deine kurve"
+        },
+        "titleImgMobile": {
+            "url": "/images/homepage/registration-teaser-text-mobile.png",
+            "title": "Komm in deine kurve"
+        },
+        "subtitle": "Noch schneller und noch einfacher gewinnen! Registriere dich jetzt und du bist in Zukunft immer direkt und mit wenigen Klicks bei unseren Gewinnspielen dabei. Also: Werde Mitglied des FC Milka und komm in deine Kurve!",
+        "cta": {
+            "url": "/",
+            "children": "MITGLIED WERDEN"
+        }
+    },
+    "experiencesBanner": {
+        "backgroundImg": {
+            "url": "/images/homepage/erlebnisse-bg.png"
+        },
+        "backgroundImgMobile": {
+            "url": "/images/homepage/erlebnisse-bg-mob.png"
+        },
+        "titleImg": {
+            "url": "/images/homepage/hl-partner.png",
+            "title": "Die FC Milka erlebnisse"
+        },
+        "titleImgMobile": {
+            "url": "/images/homepage/hl-partner-mobile.png",
+            "title": "Die FC Milka erlebnisse"
+        },
+        "subtitle": "Der FC Milka bringt Euch näher an den Fußball als je zuvor. Näher an die  Stars, näher die Legenden, näher ans Spiel. Erlebnisse, die man für Geld nicht kaufen kann.",
+        "videos": [
+            {
+                "thumbnailUrl": "https://fcmilka.de/resources/imagesBundesliga/intropage/caroussel/new/image_12.jpg",
+                "videoSrc": "https://fcmilka.de/resources/imagesBundesliga/intropage/caroussel/new/20240909_MILKA_Supercup24_v3.mp4",
+                "title": "Bundesliga Legende Lothar Matthäus als Überraschungs-Gast-Trainer"
+            },
+            {
+                "thumbnailUrl": "https://fcmilka.de/resources/imagesBundesliga/intropage/caroussel/new/image_12.jpg",
+                "videoSrc": "https://fcmilka.de/resources/imagesBundesliga/intropage/caroussel/new/20240909_MILKA_Supercup24_v3.mp4",
+                "title": "Bundesliga Legende Lothar Matthäus als Überraschungs-Gast-Trainer"
+            },
+            {
+                "thumbnailUrl": "https://fcmilka.de/resources/imagesBundesliga/intropage/caroussel/new/image_12.jpg",
+                "videoSrc": "https://fcmilka.de/resources/imagesBundesliga/intropage/caroussel/new/20240909_MILKA_Supercup24_v3.mp4",
+                "title": "Bundesliga Legende Lothar Matthäus als Überraschungs-Gast-Trainer"
+            }
+        ],
+        "cta": {
+            "url": "/experiences",
+            "children": "ALLE ANSEHEN"
+        }
+    },
+    "fairplayBanner": {
+        "backgroundImg": {
+            "url": "/images/homepage/fairplay-bg.png"
+        },
+        "partnerLogoImg": {
+            "title": "Partner logo FC Milka",
+            "desktop": {
+                "url": "/images/homepage/Partnerlogo.png"   
+            },
+            "mobile": {
+                "url": "/images/homepage/Partnerlogo-mobile.png"
+            }
+        },
+        "titleImg": {
+            "title": "fairplay moments", 
+            "desktop": {
+                "url": "/images/homepage/hl-teaser-fairplay.png"
+                  
+            },
+            "mobile": {
+                "url": "/images/homepage/hl-partner-fairplay-mobile.png"
+            }
+        },
+        "video": {
+            "thumbnailUrl": "/images/homepage/Bildschirmfoto.png",
+            "videoSrc": "https://fcmilka.de/resources/imagesBundesliga/intropage/caroussel/new/20240909_MILKA_Supercup24_v3.mp4"    
+        },
+        "videoTitle": "Josip Stanisic, Spitzenverteidiger und Ehrenmann.",
+        "cta": {
+            "url": "/experiences",
+            "children": "ALLE ANSEHEN"
+        }
+        
+    }
+}
