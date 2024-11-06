@@ -130,6 +130,14 @@ export function ClubLogo() {
             onClick={(e) => e.stopPropagation()}
           >
             <div className="text-center mb-4">
+            <div className="flex justify-center mb-4 sm:hidden" >
+                <button
+                  onClick={handleSaveSelection}
+                  className="bg-green-500 text-white py-2 px-6 rounded"
+                >
+                  FERTIG
+                </button>
+              </div>
               <div className="flex justify-center space-x-4 mb-6">
                 <button
                   className={`font-bold text-xl ${activeTab === 'Bundesliga' ? 'text-[var(--milka-light)]' : 'text-gray-500'}`}
@@ -164,7 +172,7 @@ export function ClubLogo() {
                 ))}
               </div>
 
-              <div className="flex justify-center">
+              <div className="lg:block hidden flex justify-center ">
                 <button
                   onClick={handleSaveSelection}
                   className="bg-green-500 text-white py-2 px-6 rounded"
