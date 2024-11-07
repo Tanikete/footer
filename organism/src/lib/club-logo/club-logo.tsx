@@ -138,7 +138,7 @@ export function ClubLogo() {
                   onClick={handleSaveSelection}
                   
                 >
-                  FERTIG
+                  {logosData.overButtontext}
                 </Button>
               </div>
               <div className="flex items-center justify-center gap-x-8 text-xl md:text-3xl lg:text-5xl mb-6">
@@ -200,7 +200,7 @@ export function ClubLogo() {
                   onClick={handleSaveSelection}
                   
                 >
-                  FERTIG
+                  {logosData.overButtontext}
                 </Button>
               </div>
             </div>
