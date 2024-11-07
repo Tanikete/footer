@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 import styles from './club-logo.module.scss';
 import Cookies from 'js-cookie';
 import logosData from '../../../../apps/milka/data/registrationClub.json';
@@ -20,22 +20,25 @@ export function ClubLogo() {
   const fetchLogo = async () => {
     const token = Cookies.get('token');
     try {
-      const res = await fetch("https://api.fcmilka.de/UserManagement/GetProfileInfoPromo", {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`,
-        },
-        body: JSON.stringify({ token }),
-      });
+      const res = await fetch(
+        'https://api.fcmilka.de/UserManagement/GetProfileInfoPromo',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify({ token }),
+        }
+      );
 
-      if (!res.ok) throw new Error("Failed to fetch logo");
+      if (!res.ok) throw new Error('Failed to fetch logo');
 
       const data: ClubLogoProps = await res.json();
       setFavClub(data.favclub);
       setLogo(`/images/logos/${data.favclub}.png`);
     } catch (error: any) {
-      setError(error.message || "An error occurred while fetching the logo");
+      setError(error.message || 'An error occurred while fetching the logo');
     } finally {
       setLoading(false);
     }
@@ -65,28 +68,33 @@ export function ClubLogo() {
       formData.append('token', token || '');
 
       try {
-        const res = await fetch("https://api.fcmilka.de/UserManagement/UpdateProfileInfo", {
-          method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${token}`,
-          },
-          body: formData,
-        });
+        const res = await fetch(
+          'https://api.fcmilka.de/UserManagement/UpdateProfileInfo',
+          {
+            method: 'POST',
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+            body: formData,
+          }
+        );
 
-        if (!res.ok) throw new Error("Failed to update favorite club");
+        if (!res.ok) throw new Error('Failed to update favorite club');
 
-        console.log("Favorite club updated successfully.");
+        console.log('Favorite club updated successfully.');
       } catch (error: any) {
-        setError(error.message || "An error occurred while updating the favorite club");
+        setError(
+          error.message || 'An error occurred while updating the favorite club'
+        );
       }
     }
   };
 
-  // Access the two lists in the new format (registerClubIconsOne and registerClubIconsTwo)
   const bundesligaLogos = logosData.registerClubIconsOne;
   const secondBundesligaLogos = logosData.registerClubIconsTwo;
 
-  const logosToDisplay = activeTab === 'Bundesliga' ? bundesligaLogos : secondBundesligaLogos;
+  const logosToDisplay =
+    activeTab === 'Bundesliga' ? bundesligaLogos : secondBundesligaLogos;
 
   return (
     <div>
@@ -124,7 +132,6 @@ export function ClubLogo() {
         {logosData.subfooter}
       </p>
 
-      {/* Overlay */}
       {showOverlay && (
         <div className={styles.overlay} onClick={toggleOverlay}>
           <div
@@ -133,11 +140,7 @@ export function ClubLogo() {
           >
             <div className="text-center mb-4">
               <div className="flex justify-center mb-4 sm:hidden">
-              <Button
-                  type="submit"
-                  onClick={handleSaveSelection}
-                  
-                >
+                <Button type="submit" onClick={handleSaveSelection}>
                   {logosData.overButtontext}
                 </Button>
               </div>
@@ -195,11 +198,7 @@ export function ClubLogo() {
               </div>
 
               <div className="hidden sm:flex justify-center">
-                <Button
-                  type="submit"
-                  onClick={handleSaveSelection}
-                  
-                >
+                <Button type="submit" onClick={handleSaveSelection}>
                   {logosData.overButtontext}
                 </Button>
               </div>
