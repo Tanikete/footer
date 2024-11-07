@@ -121,7 +121,7 @@ export function ClubLogo() {
         </div>
       </div>
       <p className="mt-4 text-left text-[var(--White,#FFF)] relative z-10">
-        Die Gewinnvergabe erfolgt unabhängig von deiner Clubauswahl.
+        {logosData.subfooter}
       </p>
 
       {/* Overlay */}
