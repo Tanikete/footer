@@ -131,7 +131,7 @@ export function ClubLogo() {
             onClick={(e) => e.stopPropagation()}
           >
             <div className="text-center mb-4">
-              <div className="flex justify-center mb-4 sm:hidden" >
+              <div className="flex justify-center mb-4 sm:hidden">
                 <button
                   onClick={handleSaveSelection}
                   className="bg-green-500 text-white py-2 px-6 rounded"
@@ -141,13 +141,21 @@ export function ClubLogo() {
               </div>
               <div className="flex justify-center space-x-4 mb-6">
                 <button
-                  className={`font-bold text-xl ${activeTab === 'Bundesliga' ? 'text-[var(--milka-light)]' : 'text-gray-500'}`}
+                  className={`font-bold text-xl ${
+                    activeTab === 'Bundesliga'
+                      ? 'text-[var(--milka-dark)]'
+                      : 'text-gray-500'
+                  }`}
                   onClick={() => setActiveTab('Bundesliga')}
                 >
                   BUNDESLIGA
                 </button>
                 <button
-                  className={`font-bold text-xl ${activeTab === '2. Bundesliga' ? 'text-[var(--milka-light)]' : 'text-gray-500'}`}
+                  className={`font-bold text-xl ${
+                    activeTab === '2. Bundesliga'
+                      ? 'text-[var(--milka-dark)]'
+                      : 'text-gray-500'
+                  }`}
                   onClick={() => setActiveTab('2. Bundesliga')}
                 >
                   2. BUNDESLIGA
@@ -156,19 +164,30 @@ export function ClubLogo() {
 
               <div
                 className={`grid gap-4 mb-6 ${
-                  activeTab === 'Bundesliga' ? 'grid-cols-2 sm:grid-cols-6' : 'grid-cols-2 sm:grid-cols-6'
+                  activeTab === 'Bundesliga'
+                    ? 'grid-cols-2 sm:grid-cols-6'
+                    : 'grid-cols-2 sm:grid-cols-6'
                 }`}
               >
                 {logosToDisplay.map((logo, index) => (
-                  <div key={index}
-                       onClick={() => handleLogoSelect(logo.name)}
-                       className={`flex justify-center items-center cursor-pointer rounded-lg p-1 ${selectedClub === logo.name ? 'shadow-lg ring-2 ring-[var(--milka-light)]' : ''}`}
+                  <div
+                    key={index}
+                    onClick={() => handleLogoSelect(logo.name)}
+                    className={`flex flex-col justify-center items-center cursor-pointer rounded-lg p-1 ${
+                      selectedClub === logo.name
+                        ? 'shadow-lg ring-2 ring-[var(--milka-dark)]'
+                        : ''
+                    }`}
                   >
                     <img
                       src={`${logo.imageUrl}`}
                       alt={logo.alt}
                       className="w-12 h-12 lg:w-16 lg:h-16"
                     />
+                    
+                    <div className="mt-2 text-center text-sm text-[var(--milka-dark)]">
+                      {logo.name} 
+                    </div>
                   </div>
                 ))}
               </div>
