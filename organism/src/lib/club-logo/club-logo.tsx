@@ -20,12 +20,12 @@ export function ClubLogo() {
     const token = Cookies.get('token');
     try {
       const res = await fetch("https://api.fcmilka.de/UserManagement/GetProfileInfoPromo", {
-        method: 'POST', 
+        method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`, 
+          'Authorization': `Bearer ${token}`,
         },
-        body: JSON.stringify({ token }), 
+        body: JSON.stringify({ token }),
       });
 
       if (!res.ok) throw new Error("Failed to fetch logo");
@@ -81,8 +81,9 @@ export function ClubLogo() {
     }
   };
 
-  const bundesligaLogos = logosData.logos.filter(logo => logo.category === "Bundesliga").slice(0, 18);
-  const secondBundesligaLogos = logosData.logos.filter(logo => logo.category === "2. Bundesliga").slice(0, 18);
+  // Access the two lists in the new format (registerClubIconsOne and registerClubIconsTwo)
+  const bundesligaLogos = logosData.registerClubIconsOne;
+  const secondBundesligaLogos = logosData.registerClubIconsTwo;
 
   const logosToDisplay = activeTab === 'Bundesliga' ? bundesligaLogos : secondBundesligaLogos;
 
@@ -130,7 +131,7 @@ export function ClubLogo() {
             onClick={(e) => e.stopPropagation()}
           >
             <div className="text-center mb-4">
-            <div className="flex justify-center mb-4 sm:hidden" >
+              <div className="flex justify-center mb-4 sm:hidden" >
                 <button
                   onClick={handleSaveSelection}
                   className="bg-green-500 text-white py-2 px-6 rounded"
@@ -153,7 +154,7 @@ export function ClubLogo() {
                 </button>
               </div>
 
-              <div 
+              <div
                 className={`grid gap-4 mb-6 ${
                   activeTab === 'Bundesliga' ? 'grid-cols-2 sm:grid-cols-6' : 'grid-cols-2 sm:grid-cols-6'
                 }`}
@@ -164,7 +165,7 @@ export function ClubLogo() {
                        className={`flex justify-center items-center cursor-pointer rounded-lg p-1 ${selectedClub === logo.name ? 'shadow-lg ring-2 ring-[var(--milka-light)]' : ''}`}
                   >
                     <img
-                      src={`/images/logos/${logo.image}`}
+                      src={`${logo.imageUrl}`}
                       alt={logo.alt}
                       className="w-12 h-12 lg:w-16 lg:h-16"
                     />

@@ -6,23 +6,23 @@
       "alt": "FC Augsburg"
     },
     {
-      "name": "1.FC Union Berlin",
+      "name": "FC Union Berlin",
       "imageUrl": "/images/logos/FC Union Berlin.png",
       "alt": "FC Union Berlin"
     },
     {
-      "name": "VfL Bochum 1848",
+      "name": "VfL Bochum",
       "imageUrl": "/images/logos/VfL Bochum.png",
       "alt": "VfL Bochum"
     },
     {
       "name": "SV Werder Bremen",
-      "imageUrl": "/images/logos/Ebene x0020.png",
+      "imageUrl": "/images/logos/SV Werder Bremen.png",
       "alt": "SV Werder Bremen"
     },
     {
-      "name": "FC.St.Pauli",
-      "imageUrl": "/images/logos/FC St. Pauli.png",
+      "name": "FC St Pauli",
+      "imageUrl": "/images/logos/FC St Pauli.png",
       "alt": "FC St Pauli"
     },
     {
@@ -31,19 +31,19 @@
       "alt": "Borussia Dortmund"
     },
     {
-      "name": "Eintracht Ffrankfurt",
+      "name": "Eintracht Frankfurt",
       "imageUrl": "/images/logos/Eintracht Frankfurt.png",
       "alt": "Eintracht Frankfurt"
     },
     {
       "name": "SC Freiburg",
       "imageUrl": "/images/logos/SC Freiburg.png",
-      "alt": "Sport Club Freiburg"
+      "alt": "SC Freiburg"
     },
     {
-      "name": "1.FC Heidenheim 1846",
+      "name": "FC Heidenheim 1846",
       "imageUrl": "/images/logos/FC Heidenheim 1846.png",
-      "alt": "1 FC Heidenheim"
+      "alt": "FC Heidenheim 1846"
     },
     {
       "name": "TSG Hoffenheim",
@@ -57,7 +57,7 @@
     },
     {
       "name": "RB Leipzig",
-      "imageUrl": "/images/logos/Vereinfacht.png",
+      "imageUrl": "/images/logos/RB Leipzig.png",
       "alt": "RB Leipzig"
     },
     {
@@ -66,8 +66,8 @@
       "alt": "Bayer 04 Leverkusen"
     },
     {
-      "name": "1.FSV Mainz 05",
-      "imageUrl": "/images/logos/Mainz 05.png",
+      "name": "FSV Mainz",
+      "imageUrl": "/images/logos/FSV Mainz.png",
       "alt": "FSV Mainz"
     },
     {
@@ -77,8 +77,8 @@
     },
     {
       "name": "FC Bayern München",
-      "imageUrl": "/images/logos/fifteen.png",
-      "alt": "FC Bayern Munchen"
+      "imageUrl": "/images/logos/FC Bayern München.png",
+      "alt": "FC Bayern München"
     },
     {
       "name": "VfB Stuttgart",
@@ -94,7 +94,7 @@
   "registerClubIconsTwo": [
     {
       "name": "Hertha BSC",
-      "imageUrl": "/images/logos/VfL Wolfsburg two.png",
+      "imageUrl": "/images/logos/Hertha BSC.png",
       "alt": "Hertha BSC"
     },
     {
@@ -105,7 +105,7 @@
     {
       "name": "SV Darmstadt 98",
       "imageUrl": "/images/logos/SV Darmstadt 98.png",
-      "alt": "SV Darmstadt"
+      "alt": "SV Darmstadt 98"
     },
     {
       "name": "Fortuna Düsseldorf",
@@ -114,7 +114,7 @@
     },
     {
       "name": "SV Elversberg",
-      "imageUrl": "/images/logos/bundesliga Variant.png",
+      "imageUrl": "/images/logos/SV Elversberg.png",
       "alt": "SV Elversberg"
     },
     {
@@ -133,9 +133,9 @@
       "alt": "Hannover 96"
     },
     {
-      "name": "1. FC Kaiserslautern",
-      "imageUrl": "/images/logos/1.FC Kaiserslautern.png",
-      "alt": "FC Kaiserlautern"
+      "name": "FC Kaiserslautern",
+      "imageUrl": "/images/logos/FC Kaiserslautern.png",
+      "alt": "FC Kaiserslautern"
     },
     {
       "name": "Karlsruher SC",
@@ -143,18 +143,18 @@
       "alt": "Karlsruher SC"
     },
     {
-      "name": "1.FC Köln",
-      "imageUrl": "/images/logos/1.FC Köln.png",
+      "name": "FC Köln",
+      "imageUrl": "/images/logos/FC Köln.png",
       "alt": "FC Köln"
     },
     {
-      "name": "1.FC Magdeburg",
+      "name": "FC Magdeburg",
       "imageUrl": "/images/logos/FC Magdeburg.png",
       "alt": "FC Magdeburg"
     },
     {
       "name": "SC Preußen Münster",
-      "imageUrl": "/images/logos/SC Preussen Münster.png",
+      "imageUrl": "/images/logos/SC Preußen Münster.png",
       "alt": "SC Preußen Münster"
     },
     {
@@ -165,7 +165,7 @@
     {
       "name": "SC Paderborn 07",
       "imageUrl": "/images/logos/SC Paderborn 07.png",
-      "alt": "SC Paderborn"
+      "alt": "SC Paderborn 07"
     },
     {
       "name": "SSV Jahn Regensburg",
@@ -179,8 +179,8 @@
     },
     {
       "name": "SSV Ulm 1846",
-      "imageUrl": "/images/logos/SSV Ulm.png",
-      "alt": "SSV Ulm 1846 Fussball"
+      "imageUrl": "/images/logos/SSV Ulm 1846.png",
+      "alt": "SSV Ulm 1846"
     }
   ],
   "checkBoxContainers": [
