@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from './club-logo.module.scss';
 import Cookies from 'js-cookie';
-import logosData from '../../../../apps/milka/data/logos.json';
+import logosData from '../../../../apps/milka/data/registrationClub.json';
 
 interface ClubLogoProps {
   favclub: string;
