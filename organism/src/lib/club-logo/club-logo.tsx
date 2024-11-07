@@ -92,7 +92,7 @@ export function ClubLogo() {
       <div
         className={`${styles['container']} rounded-md flex justify-between items-center bg-[var(--milka-100,#4f3d82)] p-4 max-w-md mx-auto`}
       >
-        <div className="flex flex-col">
+        <div className="flex flex-col lg:block md:hidden sm:block">
           <h1 className="text-[var(--White,#FFF)] text-2xl condensed lg:text-lg">
             MEIN CLUB
           </h1>
