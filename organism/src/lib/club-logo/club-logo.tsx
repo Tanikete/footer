@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import styles from './club-logo.module.scss';
 import Cookies from 'js-cookie';
 import logosData from '../../../../apps/milka/data/registrationClub.json';
+import { Button } from '@milka/shared-ui';
 
 interface ClubLogoProps {
   favclub: string;
@@ -132,12 +133,13 @@ export function ClubLogo() {
           >
             <div className="text-center mb-4">
               <div className="flex justify-center mb-4 sm:hidden">
-                <button
+              <Button
+                  type="submit"
                   onClick={handleSaveSelection}
-                  className="bg-green-500 text-white py-2 px-6 rounded"
+                  
                 >
                   FERTIG
-                </button>
+                </Button>
               </div>
               <div className="flex items-center justify-center gap-x-8 text-xl md:text-3xl lg:text-5xl mb-6">
                 <button
@@ -193,12 +195,13 @@ export function ClubLogo() {
               </div>
 
               <div className="hidden sm:flex justify-center">
-                <button
+                <Button
+                  type="submit"
                   onClick={handleSaveSelection}
-                  className="bg-green-500 text-white py-2 px-6 rounded"
+                  
                 >
                   FERTIG
-                </button>
+                </Button>
               </div>
             </div>
           </div>
