@@ -139,11 +139,11 @@ export function ClubLogo() {
                   FERTIG
                 </button>
               </div>
-              <div className="flex justify-center space-x-4 mb-6">
+              <div className="flex items-center justify-center gap-x-8 text-xl md:text-3xl lg:text-5xl mb-6">
                 <button
-                  className={`font-bold text-xl ${
+                  className={`font-bold ${
                     activeTab === 'Bundesliga'
-                      ? 'text-[var(--milka-dark)]'
+                      ? 'text-[var(--milka-dark)] border-b-4 border-[var(--milka-dark)]'
                       : 'text-gray-500'
                   }`}
                   onClick={() => setActiveTab('Bundesliga')}
@@ -151,9 +151,9 @@ export function ClubLogo() {
                   BUNDESLIGA
                 </button>
                 <button
-                  className={`font-bold text-xl ${
+                  className={`font-bold ${
                     activeTab === '2. Bundesliga'
-                      ? 'text-[var(--milka-dark)]'
+                      ? 'text-[var(--milka-dark)] border-b-4 border-[var(--milka-dark)]'
                       : 'text-gray-500'
                   }`}
                   onClick={() => setActiveTab('2. Bundesliga')}
@@ -184,15 +184,15 @@ export function ClubLogo() {
                       alt={logo.alt}
                       className="w-12 h-12 lg:w-16 lg:h-16"
                     />
-                    
-                    <div className="mt-2 text-center text-sm text-[var(--milka-dark)]">
-                      {logo.name} 
+
+                    <div className="text-sm text-center pb-4 font-GHPBlack uppercase mx-auto text-[var(--milka-dark)]">
+                      {logo.name}
                     </div>
                   </div>
                 ))}
               </div>
 
-              <div className="lg:block hidden flex justify-center ">
+              <div className="hidden sm:flex justify-center">
                 <button
                   onClick={handleSaveSelection}
                   className="bg-green-500 text-white py-2 px-6 rounded"
