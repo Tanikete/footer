@@ -6,6 +6,9 @@ import PasswortAendern from '../change-password/change-password';
 import AccountLoeschen from '../delete-account/delete-account';
 import Logout from '../logout/logout';
 import ClubLogo from '../club-logo/club-logo';
+import Cookies from 'js-cookie';
+import { useRouter } from 'next/navigation';
+
 
 export interface ProfileProps {
   account: accountProps;
@@ -33,6 +36,14 @@ export function Profile({ account }: ProfileProps) {
   const [selectedComponent, setSelectedComponent] = useState(() => getInitialComponent(account).component);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState(getInitialComponent(account).name);
+  const router = useRouter();
+
+  useEffect(() => {
+    const token = Cookies.get('token'); 
+    if (!token) {
+      router.push('/account'); 
+    }
+  }, [router]);
 
   function getInitialComponent(account: accountProps) {
     const currentPath = window.location.pathname;
