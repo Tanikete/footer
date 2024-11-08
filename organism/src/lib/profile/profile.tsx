@@ -9,7 +9,6 @@ import ClubLogo from '../club-logo/club-logo';
 import Cookies from 'js-cookie';
 import { useRouter } from 'next/navigation';
 
-
 export interface ProfileProps {
   account: accountProps;
 }
@@ -17,16 +16,8 @@ export interface ProfileProps {
 const ProfileData = {
   links: [
     { name: 'MEIN KONTO', href: '/my-account', component: MeinKonto },
-    {
-      name: 'KONTO INFORMATIONEN',
-      href: '/my-account/konto-information',
-      component: KontoInformationen,
-    },
-    {
-      name: 'PASSWORT ÄNDERN',
-      href: '/my-account/change-password',
-      component: PasswortAendern,
-    },
+    { name: 'KONTO INFORMATIONEN', href: '/my-account/konto-information', component: KontoInformationen },
+    { name: 'PASSWORT ÄNDERN', href: '/my-account/change-password', component: PasswortAendern },
     { name: 'ACCOUNT LÖSCHEN', href: '/my-account/delete-account', component: AccountLoeschen },
     { name: 'LOGOUT', href: '#', component: Logout },
   ],
@@ -36,12 +27,17 @@ export function Profile({ account }: ProfileProps) {
   const [selectedComponent, setSelectedComponent] = useState(() => getInitialComponent(account).component);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState(getInitialComponent(account).name);
+  const [isLoading, setIsLoading] = useState(true); 
+  
   const router = useRouter();
 
   useEffect(() => {
     const token = Cookies.get('token'); 
     if (!token) {
-      router.push('/account'); 
+      router.push('/account');
+    } else {
+      setIsLoading(false); 
+      
     }
   }, [router]);
 
@@ -56,7 +52,8 @@ export function Profile({ account }: ProfileProps) {
       };
     }
 
-    // Default to MEIN KONTO if no match is found
+    
+    
     return {
       component: <MeinKonto {...account} />,
       name: 'MEIN KONTO',
@@ -67,10 +64,13 @@ export function Profile({ account }: ProfileProps) {
     setSelectedComponent(<Component {...account} />);
     setActiveLink(name);
     setIsMenuOpen(false);
+ 
     
-    // Update the browser URL without reloading the page
     window.history.pushState({}, '', url);
   };
+
+  if (isLoading) return null; 
+  
 
   return (
     <div className="2xl:h-[918px] bg-[var(--milka-dark)] text-white">
@@ -101,12 +101,15 @@ export function Profile({ account }: ProfileProps) {
                   href={link.href}
                   className={`condensed text-3xl text-[32px] ${
                     activeLink === link.name
-                      ? 'text-[var(--Milka-grn,#8EE12D)]' // Active link color
-                      : 'text-[var(--White,#FFF)]' // Inactive link color
+                      ? 'text-[var(--Milka-grn,#8EE12D)]' 
+                      
+                      : 'text-[var(--White,#FFF)]' 
+                      
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    handleLinkClick(link.name, link.component, link.href); // Pass URL
+                    handleLinkClick(link.name, link.component, link.href); 
+                    
                   }}
                 >
                   {link.name}
